@@ -1,0 +1,4 @@
+# Architecture placeholder; EN-01/02, PK-02/04; paper 11.
+# Before implementation, declare the Python target, src layout, package data,
+# vietlegal-searchops CLI entry point, dependencies/lock and offline pytest settings.
+# This comment-only file supplies no installable project or executable tooling.

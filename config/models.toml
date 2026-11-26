@@ -1,0 +1,7 @@
+# Architecture placeholder; EN-02/03, IX-02/03, QW-01/04, JG-02/03; paper 03/08/09.
+# E5: intfloat/multilingual-e5-small, weights/tokenizer hashes, query/passage prefixes,
+# input limit 512, masked-mean pooling, L2, dimension 384, dtype/backend/device/batch.
+# Qwen and DeepSeek each require provider/base URL, requested/response model and
+# available backend revision, prompt/parser versions, thinking/sampling/output caps,
+# timeout/retry/request/token/cost limits and distinct exact-payload cache scope.
+# Credentials reference the named environment variables; actual values stay outside.

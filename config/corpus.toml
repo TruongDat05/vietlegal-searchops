@@ -1,0 +1,6 @@
+# Architecture placeholder; PL-01–05, SR-01–08, DT-01–08, IX-01; paper 02/03/06.
+# Required: six-topic coverage/seed policy; exact allowed source hosts and traced
+# attachment/CDN rules; fetch rate/timeout/retries/resume; parser/NFC/whitespace
+# versions; source/date verification and absolute code-point offset convention.
+# Freeze chunk structure/overlap/breadcrumb/serialization and E5 token accounting.
+# Group equivalence/split seed/near-duplicate and review policies identify releases.

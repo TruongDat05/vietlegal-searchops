@@ -1,0 +1,6 @@
+# Architecture placeholder; RT-01–07, PL-07; paper 03/05/10/11.
+# Bind snapshot/checkpoint/chunk/query/context profile hashes and B0/D0/D1/D2/H0/H1.
+# Lock unicode61 remove_diacritics 0, MATCH syntax/escaping, exact vector backend,
+# candidate limits, score direction, stable tie-break, source-level rank mapping,
+# span-aware context dedup, label/breadcrumb format and both E5/Qwen token budgets.
+# Dev proposals: top-100/branch, RRF c=60, top-10, 2048 E5-token context.

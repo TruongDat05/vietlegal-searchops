@@ -1,0 +1,5 @@
+# Architecture placeholder; PK-02; paper 11.
+# Plan offline source/schema/split/metric/update/resume/API/provider-parser checks
+# using checked-in tiny fixtures and fixed vectors, without model downloads or keys.
+# This nested file is not an active repository CI workflow; integration placement,
+# pinned runner/runtime and runnable test commands remain implementation work.

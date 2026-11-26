@@ -1,0 +1,6 @@
+# Architecture placeholder; IX-04–10, RT-06, EX-07; paper 07/10.
+# Require target/base manifest hashes, labeled events, job/resume identity, one
+# publisher, full/document/exact-reuse cache scope and initial state, input dedup,
+# complete-entry/vector checks, snapshot staging/retention and activation recovery.
+# Lock reference vector mode, numerical tolerances, tie-break/query suite and
+# candidate/target-bound parity gate. Define publication primitive before runtime.

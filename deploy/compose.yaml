@@ -1,0 +1,5 @@
+# Architecture placeholder; PK-01/03, EN-03; paper 11.
+# Plan one API/demo process, one controlled publisher, immutable artifact volumes,
+# separate mutable journals/cache and environment-injected Qwen/DeepSeek credentials.
+# Serving never mounts restricted G1 gold/calibration labels; avoid startup downloads.
+# Define health/readiness, CPU/RAM limits and missing-artifact behavior before deploy.

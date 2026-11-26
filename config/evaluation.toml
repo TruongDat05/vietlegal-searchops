@@ -1,0 +1,7 @@
+# Architecture placeholder; PL-07/08, EV-01–08, JG-01–07, EX-01–08; paper 09–12.
+# Collector: gold-free case manifests, split/groups, frozen profiles, QA subset,
+# run seed, attempts/budgets, cache/retry/uncertain-call policy and measurement mode.
+# Scorer/calibrator only: separate gold/qrels paths/hashes, accepted-label versions,
+# rubric/J1 hashes, eligibility/zero-denominator/failure rules, blind human labels,
+# separate audit outputs, source-group bootstrap estimand/count/RNG and seed reports.
+# Freeze per-track cost, warm-up/concurrency and real/controlled update repetitions.

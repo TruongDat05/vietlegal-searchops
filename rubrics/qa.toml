@@ -1,0 +1,5 @@
+# Architecture placeholder; JG-01/03–07; paper 09.
+# Define per-case-group correctness, completeness, groundedness, citation support
+# and appropriate action, with levels, not-applicable and review-conflict rules.
+# Record error-positive/zero-denominator conventions and human-label instructions.
+# Freeze after blind calibration with a distinct held-out audit and J1 profile.

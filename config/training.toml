@@ -1,0 +1,6 @@
+# Architecture placeholder; TR-01–08, PL-07, H02–H04/H06; paper 04/10.
+# Require T1 pilot/main paths and hashes, authorized train groups, reviewed negatives,
+# initial E5 identity, loss/version/scale/directions, collision-aware sampler,
+# equal D1/D2 optimizer steps/loss/batch, D2 base-query/variant/missing-type policy,
+# at most two pilot configurations, three main seeds and common final checkpoints.
+# Lock dev clean/noisy weights/guardrail/seed rule and checkpoint-specific re-encoding.

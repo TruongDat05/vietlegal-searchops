@@ -1,0 +1,26 @@
+# Local credentials and workspace tooling
+.env
+.env.*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Generated or restricted research artifacts
+/artifacts/*
+!/artifacts/README.md
+
+# Desktop metadata
+.DS_Store
