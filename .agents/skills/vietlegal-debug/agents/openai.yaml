@@ -1,0 +1,4 @@
+interface:
+  display_name: "VietLegal Debugging"
+  short_description: "Reproduce bugs and fix their underlying cause"
+  default_prompt: "Use $vietlegal-debug to reproduce this issue, fix its cause, and verify the affected behavior."

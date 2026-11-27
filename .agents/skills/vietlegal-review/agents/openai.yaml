@@ -1,0 +1,4 @@
+interface:
+  display_name: "VietLegal Change Review"
+  short_description: "Review requirements, code quality, and evidence"
+  default_prompt: "Use $vietlegal-review to review this change against its task, project contracts, and verification evidence."
