@@ -1,0 +1,4 @@
+interface:
+  display_name: "VietLegal Development"
+  short_description: "Implement focused changes with meaningful checks"
+  default_prompt: "Use $vietlegal-dev to implement this task using the project contracts and appropriate offline tests."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "VietLegal Team Handoff"
+  short_description: "Coordinate owners, contracts, and versioned handoffs"
+  default_prompt: "Use $vietlegal-handoff to prepare this task or interface handoff for the other project member."

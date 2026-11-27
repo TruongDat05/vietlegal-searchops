@@ -1,6 +1,6 @@
 # VietLegal SearchOps — proposed workflow
 
-The overview and five detail panels were derived from the original proposal (`propose.md`), ownership/handoff plan (`docs/PHAN_CONG_CONG_VIEC.md`) and paper sections 01–12 plus appendices (`vietlegal_paper/sections/`). Those source documents are not included in this repository; [ARCHITECTURE.md](ARCHITECTURE.md) records the current scaffold, module mapping and design decisions. This is a design proposal, with no implementation or measured-result claims. C1/C2/T1/E1/S1/P1/G1 identify shared artifacts, independently of experiment IDs D1/D2/H0/H1.
+The overview and five detail panels were derived from the original proposal, ownership/handoff plan and paper sections 01–12 plus appendices. The planning documents remain local under ignored `docs/`; the original paper package remains external. [ARCHITECTURE.md](ARCHITECTURE.md) records the shared contracts, scaffold, module mapping and design decisions without requiring those local sources in a clone. This is a design proposal, with no implementation or measured-result claims. C1/C2/T1/E1/S1/P1/G1 identify shared artifacts, independently of experiment IDs D1/D2/H0/H1.
 
 Built with the [diagram-design skill](https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/SKILL.md), using its architecture, semantic-pattern, style, layout, connector, output and export references. No specialized semantic pattern applies to the whole topology.
 

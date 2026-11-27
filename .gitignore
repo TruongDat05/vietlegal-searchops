@@ -3,7 +3,9 @@
 .env.*
 !.env.example
 /.aws/
-/.agents/
+# Share repository skills; keep other agent workspace state local.
+/.agents/*
+!/.agents/skills/
 /.codex/
 
 # Python environments and generated files

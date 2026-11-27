@@ -1,0 +1,4 @@
+interface:
+  display_name: "VietLegal Git Commits"
+  short_description: "Create focused commits with clear change descriptions"
+  default_prompt: "Use $vietlegal-git to split the authorized changes into coherent, clearly described commits."

@@ -7,11 +7,11 @@ Task IDs below assign future work; none are marked complete by this scaffold.
 
 ## Sources and design decisions
 
-Read together:
+Design sources and shared references:
 
-- Original proposal (`propose.md`, not included in this repository): scope, sources,
+- Original proposal (local planning material under ignored `docs/project/`): scope, sources,
   models, schemas and experimental protocol.
-- Original ownership and handoff plan (`docs/PHAN_CONG_CONG_VIEC.md`, not included): all 107 core tasks, H01–H09,
+- Original ownership and handoff plan (local, not versioned here): all 107 core tasks, H01–H09,
   and the rule that ownership includes implementation, tests and artifacts.
 - Original paper sections (`vietlegal_paper/sections/`, not included): 01 problem; 02 corpus; 03 retrieval;
   04 training; 05 hybrid/context; 06 benchmark; 07 updates; 08 agent; 09 evaluation;
@@ -25,11 +25,13 @@ Read together:
   was consulted only for organizing technical assumptions, project structure and
   validation gates. Spec Kit was neither initialized nor added as a dependency.
 
-Current user constraints govern this scaffold. The proposal and paper govern
-behavior; the ownership plan governs responsibility. Workflow filenames, routes
-and bundle names were explicitly proposed, so this document records their concrete
-disposition rather than treating them as existing implementations. Contradictions
-are surfaced below instead of silently changing the original sources.
+Current user constraints govern this scaffold. This document records the shared
+behavior contracts and ownership derived from the original proposal, paper and
+handoff plan. Those local/external sources are not required to use a clone;
+the task and handoff tables below preserve the shared implementation contracts.
+Workflow filenames, routes and bundle names were explicitly proposed, so this
+document records their disposition rather than treating them as implementations.
+Surface substantive conflicts instead of silently changing the agreed behavior.
 
 The initial target is one Python application/library with CLI and HTTP callers,
 SQLite/FTS5, local exact vectors, CPU E5 serving and remote fixed-weight Qwen/DeepSeek.
@@ -50,7 +52,11 @@ extra paraphrases, expansion, OCR) receive no speculative modules.
 
 ## Exact current tree
 
-This tree lists all actual files, including the three preserved workflow files.
+This tree records the original application scaffold. The later shared agent
+instructions are documented in [AGENTS.md](AGENTS.md) and the
+[skill catalog](.agents/skills/README.md); they add no application runtime.
+
+This tree lists the original scaffold files, including the three preserved workflow files.
 It contains 41 source Python files, seven test-package Python files and no
 generated runtime artifacts. Directory names inside the later artifact tables
 are future paths, not additional files in this inventory.
