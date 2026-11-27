@@ -24,3 +24,6 @@ dist/
 
 # Desktop metadata
 .DS_Store
+
+# Local planning documents
+/docs/
